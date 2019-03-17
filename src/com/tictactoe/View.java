@@ -107,7 +107,6 @@ public class View {
 	}
 	
 	//Setters
-
 	void setTitle(String s)
 	{
 		lblPlayersTurn.setText(s);
