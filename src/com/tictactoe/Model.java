@@ -74,9 +74,9 @@ public class Model {
 				}
 				if((row==0 && col==2)||(row==2 && col==0)||(row==1 && col==1))
 				{
-					for(int i=2;i>=0;i--)
+					for(int i=2,j=0;i>=0;i--,j++)
 					{
-						if(arr[i][i]==entry)
+						if(arr[i][j]==entry)
 							winner_d=true;
 						else {
 							winner_d=false;
